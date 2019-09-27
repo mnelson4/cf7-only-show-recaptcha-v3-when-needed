@@ -6,7 +6,7 @@
 /*
 Plugin Name: Contact Form 7 - Only Show Recaptcha v3 When Needed
 Plugin URI: http://wordpress.org/plugins/hello-dolly/
-Description: Fixes Contact Form 7's Recaptcha v3 so it only appears on pages with forms, not on every single page 😖!
+Description: Fixes Contact Form 7's Recaptcha v3 so it only appears on pages with forms, not on every single page 😖! No configuration or coding required- just activate it and you're done!
 Author: Mike Nelson
 Version: 0.1
 Author URI: https://cmljnelson.blog
