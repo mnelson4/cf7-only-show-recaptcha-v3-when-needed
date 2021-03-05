@@ -16,8 +16,8 @@ function cf7osrv3wn_decide()
     $post = get_post();
     if($post instanceof WP_Post && strpos($post->post_content, '[contact-form-7') === false){
         // CF7 5.3 and earlier used priority 10, but on CF7 5.4 it started using priority 20
-		remove_action( 'wp_enqueue_scripts', 'wpcf7_recaptcha_enqueue_scripts', 10, 0 );
-        remove_action( 'wp_enqueue_scripts', 'wpcf7_recaptcha_enqueue_scripts', 20, 0 );
+        remove_action( 'wp_enqueue_scripts', 'wpcf7_recaptcha_enqueue_scripts', 10);
+        remove_action( 'wp_enqueue_scripts', 'wpcf7_recaptcha_enqueue_scripts', 20);
     }
 }
 
